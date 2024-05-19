@@ -15,9 +15,9 @@ function Navbar() {
             <nav ref={navRef}>
                 <div className="nav-links">
                     <a href="/#">Home</a>
-                    <a href="/#">My work</a>
-                    <a href="/#">Blog</a>
-                    <a href="/#">About me</a>
+                    <a href="/#">Floor Plans</a>
+                    <a href="/#">Gallery</a>
+                    <a href="/#">Contact</a>
                 </div>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes />
