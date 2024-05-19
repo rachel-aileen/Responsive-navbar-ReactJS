@@ -54,6 +54,7 @@ nav a {
     text-transform: uppercase;
     font-family: 'Sweet Sans Pro', sans-serif;
     letter-spacing: 0.2em;
+    font-size: 1em;
 }
 
 nav a:hover {
