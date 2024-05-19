@@ -1,5 +1,9 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { CiMenuBurger } from "react-icons/ci";
+
+
+
 import "../Styles/main.css";
 
 function Navbar() {
@@ -11,7 +15,7 @@ function Navbar() {
 
     return (
         <header>
-            <h3>LOGO</h3>
+            <h3>Estelle</h3>
             <nav ref={navRef}>
                 <div className="nav-links">
                     <a href="/#">Home</a>
@@ -24,7 +28,7 @@ function Navbar() {
                 </button>
             </nav>
             <button className="nav-btn" onClick={showNavbar}>
-                <FaBars />
+                <CiMenuBurger />
             </button>
         </header>
     );
