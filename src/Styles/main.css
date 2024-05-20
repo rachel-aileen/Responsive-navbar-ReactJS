@@ -16,6 +16,10 @@
     font-family: "Titillium Web", sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 :root {
     --brownTextColor: #56423C;
     --blackTextColor: #272526;
@@ -131,7 +135,7 @@ header .nav-btn {
 
   .h1Text {
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
     font-size: 2em;
     color: var(--brownTextColor);
@@ -145,6 +149,7 @@ header .nav-btn {
     letter-spacing: 0.05em;
     font-weight: 300;
     padding-bottom: 6%;
+    font-size: 1.1em;
 
 }
 
