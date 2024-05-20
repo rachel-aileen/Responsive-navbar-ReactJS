@@ -21,6 +21,7 @@ body {
 }
 
 :root {
+    --lightBackgroundColor: #FAF8F4;
     --brownTextColor: #56423C;
     --blackTextColor: #272526;
     --primaryButtonColor: #E9DCCA;
@@ -59,7 +60,7 @@ nav {
 
 nav a {
     margin: 0 2rem;
-    color: var(--textColor);
+    color: var(--blackTextColor);
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Sweet Sans Pro', sans-serif;
@@ -165,7 +166,60 @@ header .nav-btn {
     cursor: grab;
 }
 
-  
+/* ////////// Overview ////////// */
+.overview {
+  display: flex;
+  background-color: var(--lightBackgroundColor);
+
+}
+
+.overviewPhoto {
+  flex: 1;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.overviewImg {
+    width: 100%;
+    padding: 12%;
+}
+
+.overviewTextBox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--blackTextColor); /* Adjust as needed */
+  font-family: 'Titillium Web', sans-serif; /* Adjust font as needed */
+}
+
+.overviewText h2 {
+  font-family: 'Titillium Web', sans-serif; /* Adjust font as needed */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.overviewText p {
+  margin-bottom: 20px;
+}
+
+.overviewButton {
+  padding: 10px 20px;
+  background-color: var(--primaryButtonColor);
+  color: var(--blackTextColor);
+  border: none;
+  cursor: pointer;
+  font-family: var(--buttonFont);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: background-color 0.3s;
+}
+
+.overviewButton:hover {
+  background-color: var(--secondaryColor);
+}
+
+
+
 
 @media only screen and (max-width: 1024px) {
     header .nav-btn {
