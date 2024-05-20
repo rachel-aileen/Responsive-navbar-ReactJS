@@ -6,9 +6,11 @@ const Hero = () => {
   return (
     <div className="hero">
       <Navbar />
-      <div className="heroContent">
-        <h1>Welcome to My Website</h1>
-        <p>Your journey starts here.</p>
+      <div className="heroSquareBackground">
+        <div className="heroContent">
+          <h1>Luxurious Living in Eastern Philadelphia</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        </div>
       </div>
     </div>
   );

@@ -15,7 +15,11 @@ function Navbar() {
 
     return (
         <header>
-            <h3>Estelle</h3>
+            <a href="#">
+               <img src="https://firebasestorage.googleapis.com/v0/b/ally-health-obgyn.appspot.com/o/estelleLogo.png?alt=media&token=af9b27c5-e88b-48f9-8350-f1b486a888db" 
+               alt="Estelle Logo"
+               className="logo"></img> 
+            </a>
             <nav ref={navRef}>
                 <div className="nav-links">
                     <a href="/#">Home</a>

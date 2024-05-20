@@ -22,7 +22,7 @@
     --textColor: #332A1C;
 }
 
-/* Navbar */
+/* ////////// Navbar ////////// */
 
 header {
     display: flex;
@@ -54,7 +54,7 @@ nav a {
     text-transform: uppercase;
     font-family: 'Sweet Sans Pro', sans-serif;
     letter-spacing: 0.2em;
-    font-size: 1em;
+    font-size: 0.85em;
 }
 
 nav a:hover {
@@ -73,7 +73,21 @@ header .nav-btn {
     font-size: 1.8rem;
 }
 
-/* Hero */
+.logo {
+    width: 10em;
+}
+
+/* ////////// Hero ////////// */
+
+.heroSquareBackground {
+    background-color: #faf8f4; 
+    width: 50%; 
+    height: 50%; 
+    margin: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .hero {
     background-image: url('https://firebasestorage.googleapis.com/v0/b/ally-health-obgyn.appspot.com/o/estelleHeroImg.png?alt=media&token=7deb7964-49fc-4ecc-b5ea-67c17beb4f24'); /* Update with the path to your image */
@@ -89,7 +103,6 @@ header .nav-btn {
     width: 100%;
     background: rgba(0, 0, 0, 0.5); /* Transparent background */
     z-index: 1;
-    /* Add more navbar styles as needed */
   }
   
   .heroContent {
@@ -99,7 +112,10 @@ header .nav-btn {
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
+    justify-content: center;
+    align-items: center;
   }
+
   
 
 @media only screen and (max-width: 1024px) {
