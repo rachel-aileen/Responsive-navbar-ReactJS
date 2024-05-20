@@ -15,8 +15,8 @@ export default function Overview() {
   
     <div className='overviewTextBox'>
       <h1 className='cursiveText'>Fine Scenery</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      <h2 className='h2Text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</h2>
+      <p className='bodyText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       <PrimaryButton buttonText="Find A Floor Plan" />
     </div>
   </div>

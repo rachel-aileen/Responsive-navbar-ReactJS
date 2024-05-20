@@ -7,6 +7,13 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Lovely Flowers';
+    src: url('../fonts/Lovely\ Flowers.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
   
 
 * {
@@ -170,17 +177,16 @@ header .nav-btn {
 .overview {
   display: flex;
   background-color: var(--lightBackgroundColor);
-
 }
 
 .overviewPhoto {
-  flex: 1;
+  flex: 1.4;
   margin-right: 20px; /* Adjust as needed */
 }
 
 .overviewImg {
     width: 100%;
-    padding: 12%;
+    padding: 14%;
 }
 
 .overviewTextBox {
@@ -188,8 +194,9 @@ header .nav-btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: var(--blackTextColor); /* Adjust as needed */
-  font-family: 'Titillium Web', sans-serif; /* Adjust font as needed */
+  color: var(--blackTextColor); 
+  font-family: 'Titillium Web', sans-serif; 
+  margin-right: 8%;
 }
 
 .overviewText h2 {
@@ -216,6 +223,23 @@ header .nav-btn {
 
 .overviewButton:hover {
   background-color: var(--secondaryColor);
+}
+
+.cursiveText {
+    font-family: 'Lovely Flowers', serif;
+    color: var(--brownTextColor);
+    font-weight: 100;
+    padding-bottom: 4%;
+}
+
+.h2Text {
+    font-family: "Montserrat", sans-serif; 
+    color: var(--brownTextColor);
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    padding-bottom: 4%;
+    font-size: 1.4em;
+    margin-right: 15%;
 }
 
 
