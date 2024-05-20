@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import "../Styles/main.css";
+import PrimaryButton from './PrimaryButton';
 
 const Hero = () => {
   return (
@@ -8,8 +9,9 @@ const Hero = () => {
       <Navbar />
       <div className="heroSquareBackground">
         <div className="heroContent">
-          <h1>Luxurious Living in Eastern Philadelphia</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur.</p>
+          <h1 className='h1Text'>Luxurious Living in Eastern Philadelphia</h1>
+          <p className='bodyText'>Lorem ipsum dolor sit amet, consectetur.</p>
+          <PrimaryButton buttonText="View Availability" />
         </div>
       </div>
     </div>
