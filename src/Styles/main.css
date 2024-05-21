@@ -29,6 +29,7 @@ body {
 
 :root {
     --lightBackgroundColor: #FAF8F4;
+    --tanBackgroundColor: #F7F5F1;
     --brownTextColor: #56423C;
     --blackTextColor: #272526;
     --primaryButtonColor: #E9DCCA;
@@ -170,23 +171,23 @@ header .nav-btn {
     letter-spacing: 0.1em;
     border: none;
     padding: 14px 40px;
-    cursor: grab;
+    cursor: pointer;
 }
 
 /* ////////// Overview ////////// */
 .overview {
   display: flex;
   background-color: var(--lightBackgroundColor);
+  padding: 10%;
+ 
 }
 
 .overviewPhoto {
-  flex: 1.4;
-  margin-right: 20px; /* Adjust as needed */
+  flex: 1.3;
 }
 
 .overviewImg {
     width: 100%;
-    padding: 14%;
 }
 
 .overviewTextBox {
@@ -195,8 +196,8 @@ header .nav-btn {
   flex-direction: column;
   justify-content: center;
   color: var(--blackTextColor); 
-  font-family: 'Titillium Web', sans-serif; 
-  margin-right: 8%;
+  font-family: 'Titillium Web', sans-serif;
+  margin-left: 8%;
 }
 
 .overviewText h2 {
@@ -239,8 +240,35 @@ header .nav-btn {
     font-weight: 300;
     padding-bottom: 4%;
     font-size: 1.4em;
-    margin-right: 15%;
 }
+
+/* ////////// Overview Reverse ////////// */
+.overviewReverse {
+    display: flex;
+    background-color: var(--tanBackgroundColor);
+    flex-direction: row-reverse;
+    padding: 10%;
+
+  }
+  
+  .overviewPhotoReverse {
+    flex: 1.3;
+    margin-left: 8%;
+  }
+  
+  
+  .overviewTextBoxReverse {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--blackTextColor); 
+    font-family: 'Titillium Web', sans-serif; 
+   
+  }
+  
+  
+  
 
 
 
