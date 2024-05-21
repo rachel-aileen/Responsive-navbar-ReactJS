@@ -245,7 +245,7 @@ header .nav-btn {
 /* ////////// Overview Reverse ////////// */
 .overviewReverse {
     display: flex;
-    background-color: var(--tanBackgroundColor);
+    background-color: var(--tanBackgroundColor)
     flex-direction: row-reverse;
     padding: 10%;
 
