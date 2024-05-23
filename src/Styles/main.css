@@ -337,8 +337,40 @@ bottom: -5px;
 width: 80%;
 height: 1px;
 background-color: var(--brownTextColor);
+}
+
+/* ////////// Quick Facts ////////// */
+
+.quickFactIcon {
+  font-size: 3em;
+  color: var(--brownTextColor);
+}
+
+.quickFactHeaderText {
+  color: var(--blackTextColor);
+  font-family: var(--primaryFont);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
+.quickFactsBodyText {
+  color: var(--blackTextColor);
+  font-weight: 500;
+  font-family: var(--primaryFont);
+  letter-spacing: 0.1em;
+}
 
 
+.cardLine {
+flex-grow: 1;
+left: 0;
+width: 20%;
+height: 1.5px;
+background-color: var(--brownTextColor);
+margin-top: 1%;
+margin-bottom: 1%;
 }
 
 
@@ -346,8 +378,7 @@ background-color: var(--brownTextColor);
   
   
 
-
-
+/* Mobile Responsive */
 
 @media only screen and (max-width: 1024px) {
     header .nav-btn {
