@@ -341,9 +341,20 @@ background-color: var(--brownTextColor);
 
 /* ////////// Quick Facts ////////// */
 
+.quickFactsSection {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+
 .quickFactIcon {
   font-size: 3em;
   color: var(--brownTextColor);
+  margin-bottom: 30%;
 }
 
 .quickFactHeaderText {
@@ -366,11 +377,11 @@ background-color: var(--brownTextColor);
 .cardLine {
 flex-grow: 1;
 left: 0;
-width: 20%;
+width: 100%;
 height: 1.5px;
 background-color: var(--brownTextColor);
-margin-top: 1%;
-margin-bottom: 1%;
+margin-top: 10%;
+margin-bottom: 10%;
 }
 
 

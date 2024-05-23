@@ -5,6 +5,8 @@ export default function QuickFacts() {
   return (
     <div className='quickFactsSection'>
       <QuickFactCard/>
+      <QuickFactCard/>
+      <QuickFactCard/>
     </div>
   )
 }
