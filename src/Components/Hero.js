@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import "../Styles/main.css";
+import "../Styles/responsive.css";
 import PrimaryButton from './PrimaryButton';
 
 const Hero = () => {
