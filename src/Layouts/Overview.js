@@ -2,9 +2,13 @@ import React from 'react';
 import '../Styles/main.css';
 import PrimaryButton from '../Components/PrimaryButton';
 
-export default function Overview({ imageUrl }) {
+export default function Overview({ imageUrl, backgroundColor }) {
+  const style = {
+    backgroundColor: backgroundColor || 'var(--lightBackgroundColor)',
+  };
+
   return (
-    <div className='overview'>
+    <div className='overview' style={style}>
       <div className='overviewPhoto'>
         <img
           src={imageUrl}
