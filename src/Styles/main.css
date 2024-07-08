@@ -55,6 +55,8 @@ header {
     padding: 0 2rem;
     background-color: transparent;
     color: var(--textColor);
+    position: relative;
+    z-index: 100;
 }
 
 nav {
