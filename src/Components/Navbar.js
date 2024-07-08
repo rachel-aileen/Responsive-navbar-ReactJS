@@ -1,6 +1,7 @@
 import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 import { CiMenuBurger } from "react-icons/ci";
+import { IoCloseOutline } from "react-icons/io5";
 
 
 
@@ -28,7 +29,8 @@ function Navbar() {
                     <a href="/#">Contact</a>
                 </div>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                    <FaTimes />
+                <IoCloseOutline />
+
                 </button>
             </nav>
             <button className="nav-btn" onClick={showNavbar}>
