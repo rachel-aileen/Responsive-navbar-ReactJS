@@ -1,9 +1,6 @@
 import { useRef } from "react";
-import { FaTimes } from "react-icons/fa";
-import { CiMenuBurger } from "react-icons/ci";
 import { IoCloseOutline } from "react-icons/io5";
-
-
+import { CiMenuBurger } from "react-icons/ci";
 
 import "../Styles/main.css";
 
@@ -17,9 +14,9 @@ function Navbar() {
     return (
         <header>
             <a href="#">
-               <img src="https://firebasestorage.googleapis.com/v0/b/ally-health-obgyn.appspot.com/o/estelleLogo.png?alt=media&token=af9b27c5-e88b-48f9-8350-f1b486a888db" 
-               alt="Estelle Logo"
-               className="logo"></img> 
+                <img src="https://firebasestorage.googleapis.com/v0/b/ally-health-obgyn.appspot.com/o/estelleLogo.png?alt=media&token=af9b27c5-e88b-48f9-8350-f1b486a888db" 
+                alt="Estelle Logo"
+                className="logo"></img> 
             </a>
             <nav ref={navRef}>
                 <div className="nav-links">
@@ -29,8 +26,7 @@ function Navbar() {
                     <a href="/#">Contact</a>
                 </div>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                <IoCloseOutline />
-
+                    <IoCloseOutline />
                 </button>
             </nav>
             <button className="nav-btn" onClick={showNavbar}>

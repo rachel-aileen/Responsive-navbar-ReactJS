@@ -6,15 +6,14 @@
     src: url('../fonts/SweetSansProRegular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'Lovely Flowers';
     src: url('../fonts/Lovely\ Flowers.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-  }
-  
+}
 
 * {
     padding: 0;
@@ -29,7 +28,7 @@ body {
 
 :root {
     /* Colors */
-  --lightBackgroundColor: #FAF8F4;
+    --lightBackgroundColor: #FAF8F4;
     --tanBackgroundColor: #F7F5F1;
     --whiteColor: #FFFEFD;
     --brownTextColor: #56423C;
@@ -39,7 +38,7 @@ body {
     --mainColorLight: #5767aa;
     --secondaryColor: #db2b39;
 
-      /* Fonts */
+    /* Fonts */
     --primaryFont: "Montserrat", sans-serif;
     --cursiveFont: 'Lovely Flowers', serif;
     --buttonFont: 'Sweet Sans Pro', sans-serif;
@@ -47,13 +46,7 @@ body {
 
 /* Mobile Responsive */
 
-/* Mobile Responsive */
-
-/* Mobile Responsive */
-
 @media only screen and (max-width: 1024px) {
-
-    /* ////////// Navbar ////////// */
     header .nav-btn {
         visibility: visible;
         opacity: 1;
@@ -61,7 +54,7 @@ body {
 
     header nav {
         position: fixed;
-        top: -100vh;
+        top: -200vh; /* Move nav out of view initially */
         left: 0;
         height: 100%;
         width: 100%;
@@ -70,12 +63,12 @@ body {
         align-items: center;
         justify-content: center; 
         background-color: var(--tanBackgroundColor);
-        transition: 0.5s;
+        transition: top 0.5s ease; /* Smooth transition */
         z-index: 20; 
     }
 
     header .responsive_nav {
-        transform: translateY(100vh);
+        top: 0; /* Bring nav into view */
     }
 
     .nav-links {
@@ -95,14 +88,13 @@ body {
 
     nav a {
         font-size: 14px;
-        margin: 0; /* Remove margin */
+        margin: 0;
     }
+}
 
-    /* ////////// Hero ////////// */
-
+@media only screen and (max-width: 750px) {
     .heroSquareBackground {
         width: 75%;
         height: 70%;
     }
 }
-
