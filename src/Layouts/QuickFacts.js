@@ -1,5 +1,5 @@
-import React from 'react'
-import QuickFactCard from '../Components/QuickFactCard'
+import React from 'react';
+import QuickFactCard from '../Components/QuickFactCard';
 
 export default function QuickFacts() {
   return (
@@ -8,5 +8,5 @@ export default function QuickFacts() {
       <QuickFactCard/>
       <QuickFactCard/>
     </div>
-  )
+  );
 }
