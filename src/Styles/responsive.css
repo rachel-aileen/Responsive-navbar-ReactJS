@@ -44,7 +44,8 @@ body {
     --buttonFont: 'Sweet Sans Pro', sans-serif;
 }
 
-/* Mobile Responsive */
+
+/* ////////// Navbar ////////// */
 
 @media only screen and (max-width: 1024px) {
     header .nav-btn {
