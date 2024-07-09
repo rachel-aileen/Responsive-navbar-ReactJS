@@ -439,7 +439,6 @@ margin-bottom: 10%;
   height: 50vh;
   background: var(--tanBackgroundColor);
   justify-content: center;
-
 }
 
 .scheduleTourBox {
@@ -450,8 +449,8 @@ margin-bottom: 10%;
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 50%;
-  padding:8%;
+  width: 50%; /* Default width for desktop */
+  padding: 8%;
 }
 
 

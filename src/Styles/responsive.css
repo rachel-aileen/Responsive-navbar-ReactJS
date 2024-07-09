@@ -91,11 +91,30 @@ body {
         font-size: 14px;
         margin: 0;
     }
+
+    .scheduleTourBox {
+        height: 30vh;
+        justify-content: center;
+        text-align: center;
+        width: 70%; /* Default width for desktop */
+        padding: 8%;
+      }
 }
+
+/* ////////// Mobile ////////// */
 
 @media only screen and (max-width: 750px) {
     .heroSquareBackground {
         width: 75%;
         height: 70%;
     }
+
+    .scheduleTourBox {
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 90%; 
+        padding: 8%;
+      }
 }
