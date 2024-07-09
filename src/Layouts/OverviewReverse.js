@@ -7,7 +7,7 @@ export default function OverviewReverse() {
     <div className='overviewReverse'>
     <div className='overviewPhotoReverse'>
       <img
-        src='https://firebasestorage.googleapis.com/v0/b/ally-health-obgyn.appspot.com/o/minimalistic-living-room.png?alt=media&token=33726ca5-d20d-4766-9537-48c3010f05b3'
+        src='https://firebasestorage.googleapis.com/v0/b/ally-health-obgyn.appspot.com/o/minimalistic-living-room.png?alt=media&token=fed4dadc-45e9-4e49-b74f-a09abd771e04'
         alt='Empty Living Room'
         className='overviewImg'
       ></img>
